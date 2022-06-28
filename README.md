@@ -2,6 +2,8 @@
 
 This repo contains a collection of shaders that Tint or Naga (mostly Naga) compile to invalid HLSL/MSL, as well as scripts for comparing the performance of several reduction tools using [`wgslsmith`](https://github.com/wgslsmith/wgslsmith).
 
+The test cases in this repo should be reproducible with wgslsmith/wgslsmith@f8917cad59365befc7adea829460423796c41b56.
+
 ## Installing reducers
 
 For Perses, use https://github.com/wgslsmith/perses. Make sure to set the following in `$WGSLSMITH_DIR/wgslsmith.toml`:
