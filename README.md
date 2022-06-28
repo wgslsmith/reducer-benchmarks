@@ -1,6 +1,6 @@
 # reducer-benchmarks
 
-This repo contains a collection of shaders that Tint or Naga (mostly Naga) compile to invalid HLSL/MSL, as well as scripts for comparing the performance of several reduction tools using [`wgslsmith`](https://github.com/wgslsmith/wgslsmith).
+This repo contains a collection of shaders that Tint or Naga (mostly Naga) compile to invalid HLSL/MSL, as well as scripts for comparing the performance of several reduction tools using [wgslsmith](https://github.com/wgslsmith/wgslsmith).
 
 The test cases in this repo should be reproducible with [wgslsmith@f8917ca](https://github.com/wgslsmith/wgslsmith/commit/f8917cad59365befc7adea829460423796c41b56).
 
