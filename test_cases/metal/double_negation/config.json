@@ -1,0 +1,5 @@
+{
+    "regex": "error: expression is not assignable",
+    "compiler": "naga",
+    "backend": "msl"
+}

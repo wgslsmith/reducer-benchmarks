@@ -1,0 +1,5 @@
+{
+    "regex": "X4010",
+    "compiler": "naga",
+    "backend": "hlsl"
+}

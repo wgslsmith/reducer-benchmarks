@@ -1,0 +1,5 @@
+{
+    "regex": "non-constant-expression cannot be narrowed from type 'int' to 'bool'",
+    "compiler": "naga",
+    "backend": "msl"
+}

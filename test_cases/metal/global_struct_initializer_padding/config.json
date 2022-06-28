@@ -1,0 +1,5 @@
+{
+    "regex": "cannot initialize an array element of type 'const constant char'",
+    "compiler": "naga",
+    "backend": "msl"
+}

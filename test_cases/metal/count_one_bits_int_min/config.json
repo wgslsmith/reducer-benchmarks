@@ -1,0 +1,5 @@
+{
+    "regex": "error: call to 'popcount' is ambiguous",
+    "compiler": "naga",
+    "backend": "msl"
+}

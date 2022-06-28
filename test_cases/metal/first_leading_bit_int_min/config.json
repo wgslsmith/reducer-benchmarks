@@ -1,0 +1,5 @@
+{
+    "regex": "error: call to 'clz' is ambiguous",
+    "compiler": "naga",
+    "backend": "msl"
+}

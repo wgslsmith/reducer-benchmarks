@@ -1,0 +1,5 @@
+{
+    "regex": "X3531",
+    "compiler": "tint",
+    "backend": "hlsl"
+}

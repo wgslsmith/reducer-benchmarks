@@ -1,0 +1,5 @@
+{
+    "regex": "error: call to 'abs' is ambiguous",
+    "compiler": "naga",
+    "backend": "msl"
+}

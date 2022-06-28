@@ -1,0 +1,5 @@
+{
+    "regex": "call to 'reverse_bits' is ambiguous",
+    "compiler": "naga",
+    "backend": "msl"
+}
