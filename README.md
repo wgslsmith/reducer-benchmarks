@@ -25,7 +25,7 @@ Also, follow the instructions [here](https://wgslsmith.github.io/validator/index
 
 ### Installing reducers
 
-For Perses, use https://github.com/wgslsmith/perses. Make sure to set the following in `$WGSLSMITH_DIR/wgslsmith.toml`:
+For Perses, use https://github.com/wgslsmith/perses. Make sure to set the following in your wgslsmith config file:
 
 ```toml
 [reducer.perses]
