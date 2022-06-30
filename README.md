@@ -2,9 +2,28 @@
 
 This repo contains a collection of shaders that Tint or Naga (mostly Naga) compile to invalid HLSL/MSL, as well as scripts for comparing the performance of several reduction tools using [wgslsmith](https://github.com/wgslsmith/wgslsmith).
 
-The test cases in this repo should be reproducible with [wgslsmith@f8917ca](https://github.com/wgslsmith/wgslsmith/commit/f8917cad59365befc7adea829460423796c41b56).
+The test cases in this repo are reproducible with naga@0b60f410ab7bd0ca0d67d024c8b5da84b55fbf18 and dawn@2b4df7889186d2e98e437a2d1bb3e083b4722edb.
 
-## Installing reducers
+## Setup
+
+Run the following commands (in the wgslsmith repo) to checkout the required commits of tint and naga and then rebuild wgslsmith.
+
+```sh
+# Checkout required wgslsmith commit
+$ git checkout 4dbea9e77f6f1dc7574ec7b6f9154c9fe83ff39b
+# Checkout required tint and naga commits
+$ cd external/naga
+$ git checkout 0b60f410ab7bd0ca0d67d024c8b5da84b55fbf18
+$ cd ../../external/dawn
+$ git checkout 2b4df7889186d2e98e437a2d1bb3e083b4722edb
+$ cd ../..
+# Rebuild wgslsmith
+$ ./build.py wgslsmith
+```
+
+Also, follow the instructions [here](https://wgslsmith.github.io/validator/index.html) to setup the validation server.
+
+### Installing reducers
 
 For Perses, use https://github.com/wgslsmith/perses. Make sure to set the following in `$WGSLSMITH_DIR/wgslsmith.toml`:
 
